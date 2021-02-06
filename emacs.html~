@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+	<title>My Page.</title>
+	<link rel="stylesheet" href="emacs.css">
+	<meta charset="UTF-8">
+
+    </head>
+    <body>
+	<div class="top">
+	    <h1>My Emacs Page.</h1>
+	</div>
+	<div class="main">
+	    <p>C+x 2 horozontal split</p>
+	    <p>C+x 3 Vertical split</p>
+	    <p>C+x C=s save to file</p>
+
+
+	    <p>M+x then type mode eg web-mode RTN</p>
+	    <p>M+x list packages opens a buffer with a huge list of packages</p>
+	    <P>C+s starts a search forwards</P>
+	    <p>C+r starts a search backwards</p>
+
+
+
+
+	</div>
+
+	<div>
+	    <h1>Web mode keys</h1>
+	    <p>C+c C+i indents the whole page</p>
+	    <p>M+; comment</p>
+	</div>
+
+<!--  -->
+
+    </body>
+
+</html>
