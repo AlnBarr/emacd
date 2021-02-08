@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-	<title>My Page.</title>
+	<title>My emacs Page.</title>
 	<link rel="stylesheet" href="emacs.css">
 	<meta charset="UTF-8">
 
@@ -12,43 +12,42 @@
 	<div class="top">
 	    <h1>My Emacs Page.</h1>
 	</div>
-	<div class="main">
+	<!-- a few general shortcuts -->
+	<div class="middle">
 	    <p>C+x 2 horozontal split</p>
 	    <p>C+x 3 Vertical split</p>
 	    <p>C+x C=s save to file</p>
-
-
-	    <p>M+x then type mode eg web-mode RTN</p>
-	    <p>M+x list packages opens a buffer with a huge list of packages</p>
-	    <P>C+s starts a search forwards</P>
+	    <p>C=x C=f file name Opens a new buffer. If the file doen'nt exist it creates it</p>
+            <P>C+s starts a search forwards</P>
 	    <p>C+r starts a search backwards</p>
-	    <br>
+	    <p>C+s or r again to go to the next word></p>
+		<p>RTN to exit search</p>
+		<!-- Cut, copy and paste stuff -->
+		<h3>Cut and Paste</h3>
+		<p>Point is what emacs calls the cursor. Mark is an invisible end of the region.
+		    Use the mouse to select a region.
+		    On the command line use C-Sapce or C-@ then use C-n or C-p to move forward or back. The arrow keys also work.</p>
+
+		<p>C-k cut to the end of the line</p>
+		<p>M-k cut to the end of the sentence</p>
+		<p>C-w cuts the region</p>
+		<p>M-w saves the region</p>
+		<p>C-y paste (yank) the cut text</p>
+
+		<!-- How to mode stuff -->
+		<h3>Mode related key bindings</h3>
+
+		<p>M+x then type mode eg web-mode RTN</p>
+		<p>M+x list packages opens a buffer with a huge list of packages</p>
+		<br>
 
 
-
-	</div>
-
-	<div>
-	    <h2>Web mode keys</h2>
-	    <p>C+c C+i indents the whole page</p>
-	    <p>M+; comment</p>
-	    <br>
-	</div>
-
-	<div>
-	    <h2>GIT</h2><br>
-	    <h3>Local git commands</h3>
-	    <p>git init</p>
-	    <p>git add</p>
-	    <P>git commit</P>
-	    <br>
-	    <h3>Git hub</h3><br>
-	    <p>git remote add origin https://github.com/AlnBarr/Udemy.git
-		where Udemy is the repository name</p>
-	    <p>git branch -M main</p>
-	    <p>git push -u origin main. (-u links up the local and remote reositories)</p>
-	    <br>
-	    <p>git log to find out what local repositories have been committed</p>
+		<div>
+		    <h2>Web mode keys</h2>
+		    <p>C+c C+i indents the whole page</p>
+		    <p>M+; comment</p>
+		    <br>
+		</div>
 	</div>
 
 
